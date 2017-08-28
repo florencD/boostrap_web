@@ -1,0 +1,31 @@
+.bgimage {
+    background-image:url(../image/background.jpg);
+    background-position:right bottom;
+    background-size: cover;
+    height:200px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    color:aliceblue;
+}
+
+.second {
+    padding: 15px;
+    display: block;
+}
+section img {
+    display:block;
+    margin:auto;
+    height: 150px;
+}
+
+section h2 {
+    text-align: center;
+}
+
+section p {
+    font-style: italic;
+    text-align: center;
+}
