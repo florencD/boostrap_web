@@ -41,3 +41,14 @@ section p {
     text-align: center;
 }
 
+/* button */
+
+button {
+    margin:20px;
+}
+
+/* table */
+
+table {
+    margin: 20px;
+}
