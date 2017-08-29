@@ -1,3 +1,4 @@
+/* Header */
 .bgimage {
     background-image:url(../image/background.jpg);
     background-position:right bottom;
@@ -11,6 +12,16 @@ header {
     color:aliceblue;
 }
 
+/* nav */
+
+ul {
+    margin: 30px;
+    text-align: right;
+    font-size: 1.5em;
+    
+}
+
+/* Service */
 .second {
     padding: 15px;
     display: block;
@@ -29,3 +40,4 @@ section p {
     font-style: italic;
     text-align: center;
 }
+
