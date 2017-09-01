@@ -1,19 +1,22 @@
-/* Header */
-.bgimage {
-    background-image:url(../image/background.jpg);
-    background-position:right bottom;
-    background-size: cover;
-    height:200px;
-}
 header h1 {
     text-align: center;
 }
 nav {
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+    
 }
 
+.jumbotron {
+    background-image: url(../image/jumbo.jpeg);
+    background-size: cover;
+    background-position: center;
+}
 
+#jumbotron-text {
+    color:white;
+    text-shadow: 1px 1px black;
+}
 /* Service */
 .second {
     padding: 15px;
@@ -39,9 +42,15 @@ section p {
 button {
     margin:0px;
 }
-
 /* table */
 
 table {
     margin: 20px;
+}
+
+/* island */
+
+.media img {
+    height:300px;
+    width:480px;
 }
