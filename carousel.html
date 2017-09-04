@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,7 +15,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-4">
-                    <h1>Pershendetje</h1>
+                  <h1>Pershendetje</h1> 
                 </div>
        <!-- Nav -->
                 <div class="col-sm-8">
@@ -31,66 +30,57 @@
         </div>
               <div class="collapse navbar-collapse" id="menu1">
                 <ul class="nav nav-pills nav-justified">
-                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="index.html">Home</a></li>
                     <li><a href="island.html">Island</a></li>
                     <li><a href="about.html">About Us</a></li>
-                    <li class="active"><a href="contact.html">Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
 </nav>
     </div>
                 
     <!--nav end-->
-                    
-       </div>
+
+            </div>
        </div>
     </header>
 <!-- header end-->
+    <!-- carousel -->
 
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="carousel slide" data-ride="carousel" id="lenci">
+                
+                <ol class="carousel-indicators">
+                    <li data-target="#lenci" data-slide-to="0" class="active"></li>
+                    <li data-target="#lenci" data-slide-to="1"></li>
+                    <li data-target="#lenci" data-slide-to="2"></li>
+                </ol>
 
-    
-<!-- contact form -->
-
-    <div class="container">
-        <div class="row">
-            <section class="col-xs-12">
-                <form class="form-horizontal">
-                    <fieldset>
-                        <legend>Basic info</legend>
-                            <div class="form-group">
-                                <label class="col-sm-2 control-label" for="inputName" >Name</label>
-                                    <div class="col-sm-10">
-                                        <input class="form-control" type="text" id="inputName" placeholder="Your Name">
-                                    </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="col-sm-2 control-label" for="inputEmail">E-Mail</label>
-                                    <div class="col-sm-10">
-                                        <input class="form-control" type="email" id="inputEmail" placeholder="E-Mail">
-                                </div>
-                            </div>
-                    </fieldset>
-                    
-                    <fieldset>
-                        <legend>Other Info</legend>
-                            <div class="form-group">
-                                <label class="col-sm-2 control-label" for="inputComments">Comments</label>
-                                    <div class="col-sm-10">
-                                        <textarea class="form-control" id="inputCommets"></textarea>
-                                    </div>
-                            </div>
-                            <div class="checkbox">
-                                <div class="col-sm-10 col-sm-offset-2">
-                                    <label><input  type="checkbox" id="inputAddList">Accept</label>
-                                </div>
-                            </div>
-
-                            <input class="btn btn-info pull-right" type="submit" value="submit">
-                    </fieldset>
-                </form>
-            </section>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="image/slider0.png"/>
+                        <div class="carousel-caption push-top">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="image/slider1.png"/>
+                    </div>
+                    <div class="item">
+                        <img src="image/slider0.png"/>
+                    </div>
+                </div><!--carousel inner-->
+                <a class="left carousel-control" href="#lenci" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                 <a class="right carousel-control" href="#lenci" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div> <!-- carousel -->
         </div>
     </div>
+</div>
+            
+<!-- carousel end -->
 
 <!-- footer -->
 
@@ -136,8 +126,7 @@
     </footer>
 
 <!-- footer -->
-    
-    
+
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
