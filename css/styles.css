@@ -1,11 +1,27 @@
+/* Header - logo - nav */
 header h1 {
     text-align: center;
 }
+.logo{
+    background-image: url(../image/logo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-left:15px;
+    padding-right:15px;
+    margin:25px;
+    height:100px;
+    width: 300px;
+    display: block;
+    }
+
 nav {
     margin-top: 20px;
     margin-bottom: 0px;
     
 }
+
+/* END header - logo - nav  */
 
 #top {
     background-image: url(../image/jumbo.jpeg);
@@ -77,7 +93,15 @@ table {
     margin-bottom: 0px;
 }
 
+/* Social Media */
 
+#social a{
+    text-decoration-line: none;
+    float: left;
+    width: 33.3%;
+    text-align: center;
+
+}
 #social img {
     align-content:space-around;
     display: block;
