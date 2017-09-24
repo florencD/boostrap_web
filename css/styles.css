@@ -3,7 +3,7 @@ header h1 {
     text-align: center;
 }
 .logo{
-    background-image: url(../image/logo.svg);
+    background-image: url(../image/logo.svg); 
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
